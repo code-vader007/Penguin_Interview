@@ -18,7 +18,7 @@ class Course_Schedule
         teachers({"John Smith", "Lara Gilbert", "Johanna Kabir", "Danniel Robertson", "Larry Cooper"}),
         classes({"English Grammar", "Mathematics", "Physics", "Chemistry", "Biology"}),
         routine(4,vector<int> (3,-1)){};
-     
+    
     void set_routine(){
         for(int i=0;i<4;i++){
             int day,times,course;
